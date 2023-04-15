@@ -15,6 +15,7 @@ h2 {
 .text {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
+    text-indent: none;
 }
 
 h2, .text {
