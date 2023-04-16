@@ -42,7 +42,7 @@ header  {
 }
 
 .donos {
-    margin: 5px;
+    margin: 10px;
     height: 650px;
     width: 450px;
     object-fit: cover;
@@ -148,7 +148,7 @@ a {
         width: 450px;
         padding: 10px 30px;
         box-shadow: 5px 5px 5px black;
-        margin: 0px 25px;
+        margin: 0px 10px;
         max-width: 100%;
     }
 
@@ -216,7 +216,7 @@ a {
         45deg, black, #221133
     );
     width: 100%;
-}
+    }
     footer {
         display: flex;
         position: relative;
@@ -254,11 +254,17 @@ a {
         color: lime;
     }
 
+    .tel {
+        font-size: 20px;
+    }
+
+    .direitos {
+        padding: 10px 0px 0px 0px;
+    }
     .direitos {
         align-items: center;
         text-align: center;
     }
-
 
 /* rodapé da page */
 
