@@ -16,10 +16,7 @@
     <header>
       <nav class="navbar">
 
-        <div class="logo">
-          <img class="img-logo" src="img/logo1.png" alt="logo">
-        </div>
-
+        <img class="img-logo" src="img/logo1.png" alt="logo">
         <ul class="nav-menu">
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#galeria">Galeria</a></li>
@@ -142,12 +139,47 @@
     <section>
       <form action="https://formsubmit.co/jonatasoliveira2016@hotmail.com" method="POST">
         <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+        
         <label>Nome:</label>
-        <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="off" required/>
+        <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="on" required/>
+
         <label>Email:</label>
-        <input type="email" name="email" placeholder="Digite seu email" autocomplete="none"required/>
+        <input type="text" name="nome" placeholder="Digite seu email" autocomplete="on" required/>
+        
+        <label>Cidade:</label>
+        <select class="cidade">
+        <option>Ribeirão Preto</option>
+        <option>Barrinha</option>
+        <option>Brodowski</option>
+        <option>Cravinhos</option>
+        <option>Dumont</option>
+        <option>Guatapará</option>
+        <option>Jardinópolis</option>
+        <option>Luis Antônio</option>
+        <option>Santa Rita do Passa Quatro</option>
+        <option>São Simão</option>
+        <option>Serrana</option>
+        <option>Serra Azul</option>
+        <option>Sertãozinho</option>
+        <option>Guariba</option>
+        <option>Jaboticabal</option>
+        <option>Monte Alto</option>
+        <option>Pitangueiras</option>
+        <option>Taiúva </option>
+        <option>Taquaral</option>
+        </select>
+        
+        <label>Tipo de evento:</label>
+        <select class="tipo">
+        <option>Confraternização</option>
+        <option>Anivesário</option>
+        <option>Casamento</option>
+        <option>Corporativo</option>
+        </select>
+
         <label>Mensagem:</label>
         <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+
         <button type="submit">Enviar</button>
       </form>
     </section>
@@ -167,7 +199,7 @@
   </footer>
 
   <div class="direitos">
-    <a href="tel:+5516999379-0658" class="tel"> (16) 993790658</a>
+    <a href="tel:+551699379-0658" class="tel"> (16) 99379-0658</a>
     <p class="direitos">© 2023 L.C Festas & Eventos. Ribeirão Preto-SP, todos os direitos reservados.</p>
   </div>
 </div>
