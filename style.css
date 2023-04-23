@@ -36,7 +36,7 @@ body {
 
 header  {
     background-image: linear-gradient(
-      45deg, black, #221133 
+      -50deg, black, #221133 
     );
     width: 100%;
 }
@@ -141,7 +141,7 @@ a {
         align-items: center;
         justify-content: center;
         background-image: linear-gradient(
-            45deg, black, #221133
+            -50deg, black, #221133
         );
         flex-direction: column;
         width: 450px;
@@ -230,7 +230,7 @@ a {
 /* rodapé da page */
     .body-footer {
     background-image: linear-gradient(
-        45deg, black, #221133
+        -50deg, black, #221133
     );
     width: 100%;
     }
@@ -316,7 +316,7 @@ a {
             top: 249px;
             gap: 0;
             background-image: linear-gradient(
-                45deg, black, #221133
+                -50deg, black, #221133
             );
             border-radius: 0 0 10px 10px;
             text-align: center;
