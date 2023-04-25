@@ -288,9 +288,13 @@ a {
 /* Responsividade */
     @media (max-width:780px) {
         .text {
-            font-size: 20PX;
+            font-size: 18PX;
         }
-    }   
+    }
+    
+        .gallery-container {
+            margin: 10px;
+        }
         
     @media (max-width:1020px) {
         .hamburguer {
@@ -322,7 +326,7 @@ a {
             text-align: center;
             flex-direction: column;
             width: 50%;
-            height: 80%;
+            height: 63%;
             transition: 0.3s;
             z-index: 1;
             justify-content: space-around;
