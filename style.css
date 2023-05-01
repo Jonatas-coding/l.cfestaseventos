@@ -147,7 +147,7 @@ a {
         width: 450px;
         padding: 10px 30px;
         box-shadow: 5px 5px 5px black;
-        margin: 5px;
+        margin: 3px;
         max-width: 100%;
     }
 
@@ -234,7 +234,6 @@ a {
         padding: 5px 5px;
         justify-content: left;
         align-items: left;
-        margin: 5px;
     }
 
 
@@ -296,17 +295,7 @@ a {
 
 /* rodapé da page */
 
-/* Responsividade */
-    @media (max-width:780px) {
-        .text {
-            font-size: 18PX;
-        }
-    }
-    
-        .gallery-container, .donos {
-            margin: 8px;
-    }
-        
+/* Responsividade */      
     @media (max-width:1020px) {
         .hamburguer {
             display: block;
@@ -371,12 +360,23 @@ a {
             transform: none;
         }
 
-        .Pay {
-            display: flex;
-            position: relative;
-            padding: 5px 5px;
-            justify-content: center;
-            align-items: center;
-            margin: 5px;
-        }
     }
+
+        @media (max-width:780px) {
+            .text {
+                font-size: 18PX;
+            }
+
+            .gallery-container, .donos {
+                margin: 5px;
+            }
+
+            .Pay {
+                margin: 3px;
+                display: flex;
+                position: relative;
+                padding: 5px 5px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
