@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-h2 {
+h2, .pagamento {
     font-family: 'Kaushan Script', 'cursive';
     color: aliceblue;
     font-size: 35px;
@@ -22,7 +22,7 @@ h2 {
     text-indent: none;
 }
 
-h2, .text {
+h2, .text, .pagamento {
     margin: 5px;
 }
 
@@ -225,7 +225,18 @@ a {
         color: black;
         border-radius: 15px; 
     }
-/*Formulário de Contato*/
+
+/*pagamentos*/
+    .Pay {
+        margin: 5px;
+        display: flex;
+        position: relative;
+        padding: 5px 5px;
+        justify-content: left;
+        align-items: left;
+        margin: 5px;
+    }
+
 
 /* rodapé da page */
     .body-footer {
@@ -292,9 +303,9 @@ a {
         }
     }
     
-        .gallery-container {
-            margin: 10px;
-        }
+        .gallery-container, .donos {
+            margin: 8px;
+    }
         
     @media (max-width:1020px) {
         .hamburguer {
@@ -360,5 +371,12 @@ a {
             transform: none;
         }
 
+        .Pay {
+            display: flex;
+            position: relative;
+            padding: 5px 5px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
     }
-/* Responsividade */
