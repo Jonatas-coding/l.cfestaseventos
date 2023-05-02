@@ -51,8 +51,8 @@ header  {
 }
 
 .img-log {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 a, li {
@@ -378,11 +378,6 @@ a {
                 padding: 5px 5px;
                 justify-content: center;
                 align-items: center;
-            }
-            
-            .img-log {
-                height: 100px;
-                width: 100px;
             }
 
         }
