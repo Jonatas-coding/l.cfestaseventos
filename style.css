@@ -310,6 +310,10 @@ a {
         .hamburguer.active .bar.bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
         }
+        
+        .header {
+            position: Static;
+        }
 
         .nav-menu {
             position: absolute;
@@ -375,7 +379,7 @@ a {
             .Pay {
                 margin: 3px;
                 display: flex;
-                position: relative;
+                position: Static;
                 padding: 5px 5px;
                 justify-content: center;
                 align-items: center;
