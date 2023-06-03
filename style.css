@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h2, .pagamento, .nav-menu {
     font-family: 'Kaushan Script', 'cursive';
     color: aliceblue;
@@ -19,7 +23,7 @@ h2, .pagamento, .nav-menu {
 }
 
 h2, .text, .pagamento {
-    margin: 5px;
+    margin: 5px 5px;
 }
 
 body {
@@ -244,7 +248,7 @@ a {
     footer {
         display: flex;
         position: relative;
-        padding: 10px 10px;
+        padding: 0px 10px;
         justify-content: center;
         align-items: center;
     }
@@ -293,7 +297,7 @@ a {
 /* rodapé da page */
 
 /* Responsividade */      
-    @media (max-width:1020px) {
+     @media (max-width:1020px) {
         .hamburguer {
             display: block;
             padding: 0px 5px;
@@ -310,13 +314,17 @@ a {
         .hamburguer.active .bar.bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
         }
-        
-        .header {
-            position: Fixed;
+
+        header {
+            position: fixed;
         }
 
+        .pay {
+            position: static;
+        }
+        
         .nav-menu {
-            position: Fixed;
+            position: fixed;
             left: -100%;
             top: 150px;
             gap: 0;
@@ -326,8 +334,8 @@ a {
             border-radius: 0 0 10px 10px;
             text-align: center;
             flex-direction: column;
-            width: 50%;
-            height: 80%;
+            width: 100%;
+            height: 57%;
             transition: 0.3s;
             z-index: 1;
             justify-content: space-around;
@@ -343,10 +351,12 @@ a {
 
         footer .social-icons li .i {
             color: deeppink;
+
         }
     
         footer .social-icons li .w {
             color: lime;
+
         }
 
         .donos {
@@ -361,7 +371,11 @@ a {
             transform: none;
         }
 
-    }
+        #sobre {
+            padding-top: 45%;
+        }
+
+    } 
 
         @media (max-width:780px) {
             .text {
@@ -378,18 +392,23 @@ a {
 
             .Pay {
                 margin: 3px;
-                display: flex;
-                position: Static;
-                padding: 5px 5px;
+                position: static;
+                padding: 3px 3px;
                 justify-content: center;
                 align-items: center;
                 justify-content: space-around;
             }
 
+            .pay{
+                position: static;
+                display: flex;
+            }
+
             .logo {
                 height: 150px;
                 width: 150px;
-            }
+            }       
 
         }
         
+    
